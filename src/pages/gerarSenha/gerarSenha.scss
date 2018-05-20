@@ -1,0 +1,94 @@
+page-home {
+    .button-ios {
+        border-radius: 4px;
+        height: 3.5em;
+        width: 16em;
+        border-radius: 10px;
+        border-color: #3ec9c7;       
+        font-size: 16px;
+        color: #2170A6;
+        //background-color: #2170A6;
+        margin: 0.4rem 0.2rem;
+        padding: 0 1em;        
+    }
+
+    span.button-inner {
+        font-size: 25px;
+    }
+
+    ion-card-content.card-content.card-content-ios {
+        height: 24em;
+    }   
+
+    .tab-button-text, .tab-button-icon {
+        display: none;
+        overflow: hidden;
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        align-self: center;
+        min-width: 26px;
+        max-width: 100%;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        color: #fff;
+    }
+
+    .ion-ios-print-outline:before {
+        content: "\f1f0";
+        color: #fff;
+    }
+
+    .ion-ios-paper-outline:before {
+        content: "\f471";
+        color: #fff;
+    }
+
+    .ion-ios-list-box-outline:before {
+        content: "\f1ab";
+        color: #fff;
+    }
+    .button-inner {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+        flex-flow: row nowrap;
+        -webkit-flex-shrink: 0;
+        -ms-flex-negative: 0;
+        flex-shrink: 0;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        width: 100%;
+        font-size: 20px;
+        height: 100%;
+    }
+
+    .card-ios {
+        margin: 12px;
+        border-radius: 2px;
+        width: calc(100% - 24px);
+        font-size: 1.4rem;
+        background: #fff;
+        -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+        border-radius: 10px;
+        padding-top: 1.1em;
+      }  
+
+    ion-card-content.card-content.card-content-ios {
+        padding-top: 2em;
+    } 
+    
+   
+
+}

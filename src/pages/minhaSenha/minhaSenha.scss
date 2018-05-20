@@ -1,0 +1,82 @@
+page-about {
+  
+    .card-background-page {
+
+        ion-card {
+          position: relative;
+          text-align: center;
+          background-color: #3ec9c7;               
+          box-shadow: none;  
+          padding-top: -20em;         
+                   
+          
+        }
+      
+        .senha {
+          position: absolute;
+          top: 35%;
+          font-size: 2.5em;
+          width: 100%;
+          font-weight: bold;
+          color: #000000;
+        }
+      
+        .titulo-senha {
+          font-size: 2.0em;
+          position: absolute;
+          top: 10%;          
+          width: 100%;
+          color: #000000;
+         
+        }
+        .div1 {
+          font-size: 2.0em;
+          position: absolute;
+          top: 20%;        
+          width: 100%;
+          color: #000000;
+         
+        }
+
+        .div2 {
+          font-size: 2.0em;
+          position: absolute;
+          top: 50%;        
+          width: 100%;
+          color: #000000;
+         
+        }
+
+        .serviço {
+          font-size: 1.5em;
+          position: absolute;
+          top: 62%;        
+          width: 100%;
+          color: #000000;}  
+
+          .tipo-fila {
+            font-size: 1.5em;
+            position: absolute;
+            top: 72%;        
+            width: 100%;
+            color: #000000;}  
+
+            .data-hora {
+              font-size: 1.5em;
+              position: absolute;
+              top: 82%;        
+              width: 100%;
+              color: #000000;}  
+
+      ion-item.item.item-block.item-ios {
+        border-radius: 26px;
+        color: #2170A6;
+       
+    }
+
+    ion-badge.badge.badge-ios {
+      background-color: #2170A6;
+  }
+
+ }
+}
