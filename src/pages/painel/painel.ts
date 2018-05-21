@@ -11,4 +11,13 @@ export class PainelPage {
 
   }
 
+  doRefresh(refresher) {
+    console.log('Sincronização iniciada', refresher);
+
+    setTimeout(() => {
+      console.log('Sincronização concluida');
+      refresher.complete();
+    }, 3000);
+  }
+
 }

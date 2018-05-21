@@ -43,6 +43,14 @@ $colors: (
   personalizada2: #3ec9c7,
 );
 
+$toast-ios-background:(rgb(13, 58, 88));
+$toast-md-background:(#ffffff);
+$toast-wp-background:(#ffffff);
+$refresher-icon-color:(#ffffff);
+
+
+$refresher-text-color:(#ffffff);
+$refresher-border-color:(#3ec9c7);
 
 // App iOS Variables
 // --------------------------------------------------
@@ -73,6 +81,7 @@ $colors: (
 // default are overridden.
 
 @import "ionic.theme.default";
+
 
 
 // Ionicons
